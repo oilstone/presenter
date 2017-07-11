@@ -1,0 +1,26 @@
+{
+    "name": "oilstone/presenter",
+    "description": "Laravel presenters",
+    "keywords": [
+        "presenter"
+    ],
+    "homepage": "https://github.com/oilstone/presenter",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Online Solutions",
+            "email": "support@onlinesolutionsltd.com"
+        }
+    ],
+    "require": {
+        "php" : ">=7.1.0",
+        "illuminate/support" : "^5.4",
+        "illuminate/pagination" : "^5.4",
+        "illuminate/database" : "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Oilstone\\Presenter\\": "src"
+        }
+    }
+}
