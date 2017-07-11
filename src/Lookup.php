@@ -1,6 +1,6 @@
 <?php
 
-namespace Oilstone\Presenters;
+namespace Oilstone\Presenter;
 
 /**
  * Class Lookup

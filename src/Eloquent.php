@@ -1,6 +1,6 @@
 <?php
 
-namespace Oilstone\Presenters;
+namespace Oilstone\Presenter;
 
 use Oilstone\Support\Arr as ArrayHelper;
 use Carbon\Carbon;

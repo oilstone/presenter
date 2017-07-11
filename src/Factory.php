@@ -1,6 +1,6 @@
 <?php
 
-namespace Oilstone\Presenters;
+namespace Oilstone\Presenter;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasOne;
