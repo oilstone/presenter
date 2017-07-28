@@ -65,7 +65,7 @@ class Factory
     {
         $modelMethod = camel_case(class_basename($model));
 
-        if(is_callable("self::$modelMethod")) {
+        if(self::hasMacro($modelMethod)) {
             return self::$modelMethod($model);
         }
 
